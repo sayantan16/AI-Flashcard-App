@@ -1,0 +1,80 @@
+/* static/styles.css */
+body {
+  background: linear-gradient(135deg, #2b2b2b, #3a3a3a, #33334d, #2b2b36);
+  color: #dcdcdc;
+  font-family: 'Arial', sans-serif;
+}
+
+.card {
+  background-color: #2b2b2b;
+  border: 1px solid #444;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-header {
+  background-color: rgb(40, 23, 23);
+  border-bottom: 1px solid #444;
+  color: #dcdcdc;
+  font-weight: bold;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+  color: #dcdcdc;
+}
+
+.btn {
+  background-color: #007bff;
+  border: 1px solid #0056b3;
+  color: #fff;
+  transition: background-color 0.2s ease-in-out, transform 0.2s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+h5.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  margin-bottom: 1rem;
+  color: #dcdcdc;
+}
+
+.d-flex {
+  margin-top: 1rem;
+}
+
+a.btn-primary {
+  background-color: #00464c;
+  border: 1px solid #0097a4;
+  color: #fff;
+  margin-bottom: 1rem;
+  transition: background-color 0.2s ease-in-out, transform 0.2s;
+}
+
+a.btn-primary:hover {
+  background-color: #4c0000;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background-color: #4c0000;
+  border: 1px solid #5a6268;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: #00464c;
+}

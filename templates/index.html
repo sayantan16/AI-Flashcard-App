@@ -1,0 +1,19 @@
+<!-- templates/index.html -->
+{% extends "layout.html" %} {% block content %}
+<div class="row">
+  {% for topic in topics %}
+  <div class="col-md-4 mb-4">
+    <div class="card h-100" style="background-color: black">
+      <div class="card-body text-center">
+        <h5 class="card-title">{{ topic }}</h5>
+        <a
+          href="{{ url_for('flashcards_view', topic=topic) }}"
+          class="btn btn-primary"
+          >View Flashcards</a
+        >
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

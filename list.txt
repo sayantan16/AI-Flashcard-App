@@ -1,0 +1,165 @@
+
+### Day 1: C# Fundamentals and Advanced Concepts
+
+**C# Basics:**
+- Syntax and Structure
+  - Data types
+  - Variables
+  - Constants
+  - Operators (Arithmetic, Relational, Logical, Bitwise, etc.)
+- Control Flow
+  - Conditional statements (if, else, switch)
+  - Loops (for, while, do-while, foreach)
+- Arrays and Collections
+  - One-dimensional and multidimensional arrays
+  - Lists, dictionaries, queues, and stacks
+
+**Object-Oriented Programming (OOP):**
+- Classes and Objects
+  - Properties, Methods, Fields
+  - Constructors
+- Inheritance
+  - Base and Derived classes
+- Polymorphism
+  - Method Overloading
+  - Method Overriding
+- Encapsulation
+  - Access Modifiers (public, private, protected, internal)
+- Abstraction
+  - Abstract Classes
+  - Interfaces
+
+**Advanced C# Concepts:**
+- Delegates and Events
+  - Event Handling
+- LINQ (Language Integrated Query)
+  - Basic queries
+  - Advanced queries
+- Exception Handling
+  - Try, Catch, Finally
+  - Custom Exceptions
+- Asynchronous Programming
+  - Async and Await
+- Reflection
+- File I/O
+  - Reading and writing files
+
+### Day 2: .NET Framework and .NET Core
+
+**.NET Framework:**
+- Architecture and Components
+- Common Language Runtime (CLR)
+- Framework Class Library (FCL)
+- Memory Management
+  - Garbage Collection
+- Assemblies
+  - DLLs and EXEs
+  - GAC (Global Assembly Cache)
+- Versioning and Deployment
+
+**.NET Core:**
+- .NET Core vs .NET Framework
+- Cross-Platform Development
+- Project Structure
+- Package Management with NuGet
+
+**ASP.NET Core:**
+- MVC Architecture
+  - Models, Views, Controllers
+- Razor Pages
+  - Syntax and usage
+- RESTful APIs
+  - Creating and consuming APIs
+  - Swagger for API documentation
+- Dependency Injection
+- Middleware
+  - Custom Middleware
+- Entity Framework Core
+  - Code First and Database First approaches
+  - LINQ queries with EF Core
+
+### Day 3: Azure and Agile
+
+**Microsoft Azure:**
+- Core Azure Services
+  - Compute (VMs, App Services, Azure Functions)
+  - Storage (Blob Storage, Table Storage, Queue Storage)
+  - Databases (SQL Database, Cosmos DB)
+  - Networking (Virtual Networks, Load Balancers, Azure DNS)
+- Azure DevOps
+  - Boards, Repos, Pipelines, Test Plans, Artifacts
+- Azure Resource Manager (ARM) Templates
+- Azure Identity and Access Management (IAM)
+  - Azure Active Directory
+  - Role-Based Access Control (RBAC)
+- Monitoring and Logging
+  - Azure Monitor
+  - Application Insights
+- Security
+  - Key Vault
+  - Security Center
+- Deployment Models
+  - ARM Templates
+  - Azure CLI
+  - Azure Portal
+
+**Agile Methodology:**
+- Agile Principles and Manifesto
+- Scrum Framework
+  - Roles (Product Owner, Scrum Master, Development Team)
+  - Events (Sprint Planning, Daily Stand-up, Sprint Review, Sprint Retrospective)
+  - Artifacts (Product Backlog, Sprint Backlog, Increment)
+- Kanban
+  - Kanban Board
+  - WIP Limits
+- Agile Tools
+  - Jira, Azure DevOps Boards
+
+### Day 4: Angular
+
+**Angular Basics:**
+- Setting up the Environment
+  - Node.js and npm
+  - Angular CLI
+- Angular Project Structure
+  - Modules, Components, Templates
+- Data Binding
+  - Interpolation
+  - Property Binding
+  - Event Binding
+  - Two-way Binding
+
+**Angular Components:**
+- Component Lifecycle Hooks
+- Component Communication
+  - @Input and @Output
+- Directives
+  - Structural Directives (ngIf, ngFor)
+  - Attribute Directives
+
+**Services and Dependency Injection:**
+- Creating and using services
+- Dependency Injection
+
+**Routing and Navigation:**
+- Router Module
+  - Configuring routes
+  - Route Guards
+  - Lazy Loading
+
+**HTTP Client:**
+- Making HTTP Requests
+  - GET, POST, PUT, DELETE
+- Handling Observables with RxJS
+
+**Forms in Angular:**
+- Template-Driven Forms
+- Reactive Forms
+  - FormControl, FormGroup
+  - Form Validation
+
+**Advanced Angular Topics:**
+- State Management with NgRx
+- Angular Animations
+- Internationalization (i18n)
+- Performance Optimization
